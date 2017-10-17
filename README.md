@@ -7,7 +7,7 @@ Digitalisation of the HHS employability passport.
 2. Design
 3. Development
 4. Testing
-5. implementation
+5. implementation/integration
 6. Maintenance
 
 ## Roles:
