@@ -11,12 +11,9 @@ Digitalisation of the HHS employability passport.
 6. Maintenance
 
 ## Roles:
-1. Caine, ____, ____
-2. George, Caine
-3. Tom, George
-4. Everyone // May have someone spesific to retrieve testing data from others outside the dev team.
-5. Tom, ____, ____
-6. Depends on what needs to be maintained
+Code Behind/XAML: George, Tom, Scott
+Content: Alex?, Joe, Charlie
+Presentation/Face: Caine
 
 ## Future Developments
 As the project develops we can split into 2 different but connected development teams working on different features at the same time.
