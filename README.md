@@ -12,7 +12,9 @@ Digitalisation of the HHS employability passport.
 
 ## Roles:
 Code Behind/XAML: George, Tom, Scott
+
 Content: Alex?, Joe, Charlie
+
 Presentation/Face: Caine
 
 ## Future Developments
