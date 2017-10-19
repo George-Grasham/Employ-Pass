@@ -11,6 +11,8 @@ Digitalisation of the HHS employability passport.
 6. Maintenance
 
 ## Roles:
+Design: Scott, Alex
+
 Code Behind/XAML: George, Tom, Scott
 
 Content: Alex?, Joe, Charlie
@@ -26,3 +28,7 @@ A basic understanding of git will be required as this will be the main resource 
 https://openclassrooms.com/courses/manage-your-code-with-git-and-github?utm_medium=native_ads_simplified
 
 And if you are working in steps 2 or 3 an understanding of how to use git in Visual studio will be required.
+
+## Content Links
+https://docs.google.com/a/hessleacademy.com/document/d/1IFTvnw65qtV0XlM3ybKHXWr_JVRMJGCxgNuprYMZ-eA/edit?usp=sharing
+
