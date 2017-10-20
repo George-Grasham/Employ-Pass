@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:App1"
              x:Class="App1.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <ScrollView>
+        <StackLayout>
+            <Button x:Name="Intro"  Text="Introduction"             Clicked="Intro_Clicked"/>
+            <Button x:Name="Step_1" Text="Step 1: Making a start"   Clicked="Step_1_Clicked"/>
+            <Button x:Name="Step_2" Text="Step 2: Looking for Jobs" Clicked="Step_2_Clicked"/>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>

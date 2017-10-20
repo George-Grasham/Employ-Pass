@@ -12,6 +12,22 @@ namespace App1
         public MainPage()
         {
             InitializeComponent();
+            
+        }
+
+        async private void Intro_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new IntroPage());
+        }
+
+        private void Step_1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Step_2_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
