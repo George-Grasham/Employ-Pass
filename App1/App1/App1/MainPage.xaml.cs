@@ -13,6 +13,7 @@ namespace App1
         {
             InitializeComponent();
             
+            
         }
 
         async private void Intro_Clicked(object sender, EventArgs e)
@@ -26,6 +27,31 @@ namespace App1
         }
 
         private void Step_2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void Step_3_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Step_4_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Step_5_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Preping_a_CV_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Application_Forms_Clicked(object sender, EventArgs e)
         {
 
         }

@@ -6,9 +6,15 @@
 
     <ScrollView>
         <StackLayout>
-            <Button x:Name="Intro"  Text="Introduction"             Clicked="Intro_Clicked"/>
+            <Label Text="Contents"  FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="Intro"  Text="Introduction"             Clicked="Intro_Clicked" />
             <Button x:Name="Step_1" Text="Step 1: Making a start"   Clicked="Step_1_Clicked"/>
             <Button x:Name="Step_2" Text="Step 2: Looking for Jobs" Clicked="Step_2_Clicked"/>
+            <Button x:Name="Step_3" Text="Step 3: Word of mouth"    Clicked="Step_3_Clicked"/>
+            <Button x:Name="Step_4" Text="Step 4: Applying on the 'Off Chance'" Clicked="Step_4_Clicked"/>
+            <Button x:Name="Step_5" Text="Step 5: Keeping track of your progress" Clicked="Step_5_Clicked"/>
+            <Button x:Name="Preping_a_CV" Text="Preparations of a CV" Clicked="Preping_a_CV_Clicked"/>
+            <Button x:Name="Application_Forms" Text="Application forms" Clicked="Application_Forms_Clicked"/>
         </StackLayout>
     </ScrollView>
 
