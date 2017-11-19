@@ -15,6 +15,7 @@
             <Button x:Name="Step_5" Text="Step 5: Keeping track of your progress" Clicked="Step_5_Clicked"/>
             <Button x:Name="Preping_a_CV" Text="Preparations of a CV" Clicked="Preping_a_CV_Clicked"/>
             <Button x:Name="Application_Forms" Text="Application forms" Clicked="Application_Forms_Clicked"/>
+            <Image  x:Name="Logo"/>
         </StackLayout>
     </ScrollView>
 

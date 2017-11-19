@@ -12,7 +12,7 @@ namespace App1
         public MainPage()
         {
             InitializeComponent();
-            
+            Logo.Source = ImageSource.FromResource("App1.hessle_academy_logo_and_text.png");
             
         }
 
