@@ -6,7 +6,16 @@
 
     <ScrollView>
         <StackLayout>
-            <Label Text="Contents"  FontSize="50" FontAttributes="Bold"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                                
+                <Label Grid.Column="0" Text="Contents"  FontSize="50" FontAttributes="Bold"/>
+                <Image Grid.Column="1" x:Name="Shield" HeightRequest="100"/>                
+            </Grid>
+            
             <Button x:Name="Intro"  Text="Introduction"             Clicked="Intro_Clicked" />
             <Button x:Name="Step_1" Text="Step 1: Making a start"   Clicked="Step_1_Clicked"/>
             <Button x:Name="Step_2" Text="Step 2: Looking for Jobs" Clicked="Step_2_Clicked"/>
@@ -15,7 +24,15 @@
             <Button x:Name="Step_5" Text="Step 5: Keeping track of your progress" Clicked="Step_5_Clicked"/>
             <Button x:Name="Preping_a_CV" Text="Preparations of a CV" Clicked="Preping_a_CV_Clicked"/>
             <Button x:Name="Application_Forms" Text="Application forms" Clicked="Application_Forms_Clicked"/>
-            <Image  x:Name="Logo"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" x:Name="HessleLogo" HeightRequest="100"/>
+                <Image Grid.Column="1" x:Name="ConsortiumLogo" HeightRequest="100"/> 
+            </Grid>
         </StackLayout>
     </ScrollView>
 
