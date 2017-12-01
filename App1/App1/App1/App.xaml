@@ -3,8 +3,74 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.App">
 	<Application.Resources>
+        <ResourceDictionary>
+            
+            
+           <!--colors-->            
+            <Color x:Key="backgroundColor">#002E5F</Color>
+            <Color x:Key="textColor">#FFCC00</Color>
+            <Color x:Key="hilightColor">#004C7D</Color>
 
+            <!--Images Styles-->
+                  
+            <Style x:Key="hhsshield"
+                   TargetType="Image">
+                <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
+                <Setter Property="Source" Value="hhsshield.jpg" />
+                <Setter Property="HeightRequest" Value="150" />
+                <Setter Property="Margin" Value="5" />
+            </Style>
+            
+            <Style x:Key="hhslogo"
+                   TargetType="Image">
+                <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
+                <Setter Property="Source"          Value="hhslogo.png" />
+                <Setter Property="HeightRequest"   Value="100" />
+                <Setter Property="Margin"          Value="5" />
+            </Style>
+            
+            <Style x:Key="tcatlogo"
+                   TargetType="Image">
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
+                <Setter Property="Source"          Value="tcatlogo.png" />
+                <Setter Property="HeightRequest"   Value="100" />
+                <Setter Property="Margin"          Value="5" />
+            </Style>
+            
+            <!--Styles-->
+            <Style x:Key="labelStyle"
+                   TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+            </Style>
+            
+            <Style x:Key="title"
+                   TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+                <Setter Property="FontSize" Value="50"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="VerticalTextAlignment"   Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            
+            <Style x:Key="buttonStyle"
+                   TargetType="Button">
+                <Setter Property="TextColor"       Value="{DynamicResource textColor}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
+            </Style>
+            <Style x:Key="backgroundStyle"
+                   TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
+            </Style>              
+            <Style x:Key="invLabelStyle"
+                   TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource backgroundColor}" />
+            </Style>            
+            <Style x:Key="invBackgroundStyle"
+                   TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource textColor}" />
+            </Style>
+            
+        </ResourceDictionary>
 		<!-- Application resource dictionary -->
-
-	</Application.Resources>
+        </Application.Resources>
 </Application>

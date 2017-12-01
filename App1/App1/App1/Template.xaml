@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.Template">
+    
+    <ScrollView>
+        <StackLayout Style="{DynamicResource backgroundStyle}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Title"/>
+                <Image Grid.Column="1" x:Name="Shield" HeightRequest="100"/>
+            </Grid>
+
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" x:Name="HessleLogo" HeightRequest="100"/>
+                <Image Grid.Column="1" Grid.Row="0" x:Name="ConsortiumLogo" HeightRequest="100"/>
+
+                <BoxView Style="{DynamicResource invBackgroundStyle}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label Style="{DynamicResource invLabelStyle}"        Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

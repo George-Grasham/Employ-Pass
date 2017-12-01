@@ -5,33 +5,40 @@
              x:Class="App1.MainPage">
 
     <ScrollView>
-        <StackLayout>
+        <StackLayout Style="{DynamicResource backgroundStyle}">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                                
-                <Label Grid.Column="0" Text="Contents"  FontSize="50" FontAttributes="Bold"/>
-                <Image Grid.Column="1" x:Name="Shield" HeightRequest="100"/>                
+
+                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Contents"/>
+                <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>                
             </Grid>
             
-            <Button x:Name="Intro"  Text="Introduction"             Clicked="Intro_Clicked" />
-            <Button x:Name="Step_1" Text="Step 1: Making a start"   Clicked="Step_1_Clicked"/>
-            <Button x:Name="Step_2" Text="Step 2: Looking for Jobs" Clicked="Step_2_Clicked"/>
-            <Button x:Name="Step_3" Text="Step 3: Word of mouth"    Clicked="Step_3_Clicked"/>
-            <Button x:Name="Step_4" Text="Step 4: Applying on the 'Off Chance'" Clicked="Step_4_Clicked"/>
-            <Button x:Name="Step_5" Text="Step 5: Keeping track of your progress" Clicked="Step_5_Clicked"/>
-            <Button x:Name="Preping_a_CV" Text="Preparations of a CV" Clicked="Preping_a_CV_Clicked"/>
-            <Button x:Name="Application_Forms" Text="Application forms" Clicked="Application_Forms_Clicked"/>
-
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Intro"  Text="Introduction"             Clicked="Intro_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Step_1" Text="Step 1: Making a start"   Clicked="Step_1_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Step_2" Text="Step 2: Looking for Jobs" Clicked="Step_2_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Step_3" Text="Step 3: Word of mouth"    Clicked="Step_3_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Step_4" Text="Step 4: Applying on the 'Off Chance'" Clicked="Step_4_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Step_5" Text="Step 5: Keeping track of your progress" Clicked="Step_5_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Preping_a_CV" Text="Preparations of a CV" Clicked="Preping_a_CV_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Application_Forms" Text="Application forms" Clicked="Application_Forms_Clicked"/>
+            
             <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" x:Name="HessleLogo" HeightRequest="100"/>
-                <Image Grid.Column="1" x:Name="ConsortiumLogo" HeightRequest="100"/> 
+                <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
+                <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
+
+                <BoxView Style="{DynamicResource invBackgroundStyle}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label Style="{DynamicResource invLabelStyle}"        Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
     </ScrollView>
