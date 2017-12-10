@@ -15,9 +15,6 @@ namespace App1
 		public Introduction ()
 		{
 			InitializeComponent ();
-            //Shield.Source = ImageSource.FromResource("App1.Resources.HHSShield.jpg");
-            HessleLogo.Source = ImageSource.FromResource("App1.Resources.HHSLogo.png");
-            ConsortiumLogo.Source = ImageSource.FromResource("App1.Resources.TCATLogo.png");
-        }
+		}
 	}
 }

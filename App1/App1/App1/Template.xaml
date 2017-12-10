@@ -12,10 +12,11 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Title"/>
-                <Image Grid.Column="1" x:Name="Shield" HeightRequest="100"/>
+                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Contents"/>
+                <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
-
+            
+            
 
             <Grid>
                 <Grid.RowDefinitions>
@@ -26,8 +27,8 @@
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Grid.Row="0" x:Name="HessleLogo" HeightRequest="100"/>
-                <Image Grid.Column="1" Grid.Row="0" x:Name="ConsortiumLogo" HeightRequest="100"/>
+                <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
+                <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
                 <BoxView Style="{DynamicResource invBackgroundStyle}" Grid.Row="1" Grid.ColumnSpan="2"/>
                 <Label Style="{DynamicResource invLabelStyle}"        Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>

@@ -144,7 +144,7 @@
     <EmbeddedResource Include="Resources\hhslogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\hhsshield.jpg" />
+    <BundleResource Include="Resources\hhsshield.png" />
     <Content Include="Resources\tcatlogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

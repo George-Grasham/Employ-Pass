@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Step_1"
+             Title="Page1">
+
+    <ScrollView>
+        <StackLayout Style="{DynamicResource backgroundStyle}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Style="{DynamicResource title}" Grid.Column="0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Step 1&#x0a;" ForegroundColor="White" FontSize="25"/>
+                            <Span Text="Making a start" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
+            </Grid>
+
+            
+            <Label Style="{DynamicResource body}" Margin="5,0" Text="You can't just 'look for a job'."/>
+            <Label Style="{DynamicResource body}" Margin="5,0" Text="Having a plan will help you get the most from your efforts. First ask yourself some basic questions:"/>
+
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What sort of jobs can i do?"/>
+                <Label Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What skills are needed to get these Jobs?"/>
+                <Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Were are these jobs?"/>
+            </Grid>
+                
+            
+                 
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
+                <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
+
+                <BoxView Style="{DynamicResource invBackgroundStyle}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label Style="{DynamicResource invLabelStyle}"        Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -12,12 +12,11 @@
             <Color x:Key="hilightColor">#004C7D</Color>
 
             <!--Images Styles-->
-                  
+
             <Style x:Key="hhsshield"
                    TargetType="Image">
-                <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
                 <Setter Property="Source" Value="hhsshield.jpg" />
-                <Setter Property="HeightRequest" Value="150" />
+                <Setter Property="HeightRequest" Value="100" />
                 <Setter Property="Margin" Value="5" />
             </Style>
             
@@ -46,25 +45,40 @@
             <Style x:Key="title"
                    TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource textColor}" />
-                <Setter Property="FontSize" Value="50"/>
+                <Setter Property="FontSize" Value="30"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="VerticalTextAlignment"   Value="Center"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
             </Style>
-            
+
+            <Style x:Key="heading"
+                   TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+
+            <Style x:Key="body"
+                   TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="17"/>
+            </Style>
+
             <Style x:Key="buttonStyle"
                    TargetType="Button">
                 <Setter Property="TextColor"       Value="{DynamicResource textColor}" />
                 <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
             </Style>
+            
             <Style x:Key="backgroundStyle"
                    TargetType="VisualElement">
                 <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
-            </Style>              
+            </Style> 
+            
             <Style x:Key="invLabelStyle"
                    TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource backgroundColor}" />
-            </Style>            
+            </Style> 
+            
             <Style x:Key="invBackgroundStyle"
                    TargetType="VisualElement">
                 <Setter Property="BackgroundColor" Value="{DynamicResource textColor}" />

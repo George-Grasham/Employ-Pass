@@ -10,11 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace App1
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Template : ContentPage
+	public partial class Step_1 : ContentPage
 	{
-		public Template ()
+		public Step_1()
 		{
-			InitializeComponent ();
-        }
+			InitializeComponent();
+		}
 	}
 }
