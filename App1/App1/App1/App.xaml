@@ -35,7 +35,7 @@
                 <Setter Property="HeightRequest"   Value="100" />
                 <Setter Property="Margin"          Value="5" />
             </Style>
-            
+
             <!--Styles-->
             <Style x:Key="labelStyle"
                    TargetType="Label">
