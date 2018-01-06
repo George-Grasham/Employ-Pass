@@ -4,18 +4,18 @@
              x:Class="App1.Introduction"
              Title="Introduction">
     <ScrollView>
-        <StackLayout Style="{DynamicResource backgroundStyle}">
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Introduction"/>
+                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Contents"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
-            
-            
+
+
             <Label Margin="5,0" Style="{DynamicResource heading}">
                 <Label.FormattedText>
                     <FormattedString>
@@ -26,10 +26,9 @@
             </Label>
             <Label Style="{DynamicResource body}" Margin="5,0" Text="We live in an age where the pace of change is more rapid than at any time in history. In order to meet these challenges employers require and value people who are adaptable and able to be resilient."/>
             <Label Style="{DynamicResource body}" Margin="5,0" Text="This employability booklet should to be used as a reference to highlight your skills and attributes. Whether it be for academic purposes, such as creating a CV, or for personal endeavours into the world of work."/>
-            
-            
-            <Grid>
 
+
+            <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"/>
                     <RowDefinition Height="25"/>
@@ -41,8 +40,8 @@
                 <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
                 <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
-                <BoxView Style="{DynamicResource invBackgroundStyle}" Grid.Row="1" Grid.ColumnSpan="2"/>
-                <Label Style="{DynamicResource invLabelStyle}"        Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+                <BoxView Color="{DynamicResource textColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
         </ScrollView>

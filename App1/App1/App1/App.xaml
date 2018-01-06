@@ -6,7 +6,7 @@
         <ResourceDictionary>
             
             
-           <!--colors-->            
+            <!--colors-->            
             <Color x:Key="backgroundColor">#002E5F</Color>
             <Color x:Key="textColor">#FFCC00</Color>
             <Color x:Key="hilightColor">#004C7D</Color>
@@ -37,10 +37,6 @@
             </Style>
             
             <!--Styles-->
-            <Style x:Key="labelStyle"
-                   TargetType="Label">
-                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
-            </Style>
             
             <Style x:Key="title"
                    TargetType="Label">
@@ -68,22 +64,7 @@
                 <Setter Property="TextColor"       Value="{DynamicResource textColor}" />
                 <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
             </Style>
-            
-            <Style x:Key="backgroundStyle"
-                   TargetType="VisualElement">
-                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
-            </Style> 
-            
-            <Style x:Key="invLabelStyle"
-                   TargetType="Label">
-                <Setter Property="TextColor" Value="{DynamicResource backgroundColor}" />
-            </Style> 
-            
-            <Style x:Key="invBackgroundStyle"
-                   TargetType="VisualElement">
-                <Setter Property="BackgroundColor" Value="{DynamicResource textColor}" />
-            </Style>
-            
+
         </ResourceDictionary>
 		<!-- Application resource dictionary -->
         </Application.Resources>
