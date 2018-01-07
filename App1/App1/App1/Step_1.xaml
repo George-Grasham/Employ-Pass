@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Step_1"
-             Title="Page1">
+             Title="Step 1">
 
     <ScrollView>
         <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
@@ -27,22 +27,41 @@
             <Label Style="{DynamicResource body}" Margin="5,0" Text="Having a plan will help you get the most from your efforts. First ask yourself some basic questions:"/>
 
             <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-
-                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What sort of jobs can i do?"/>
-                <Label Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What skills are needed to get these Jobs?"/>
-                <Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Were are these jobs?"/>
+                <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource textColor}" Margin="5,0"/>
+                <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource backgroundColor}" Margin="6,1"/>
+                <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What sort of jobs can i do?"/>
+                <BoxView Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource textColor}" Margin="5,0"/>
+                <BoxView Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource backgroundColor}" Margin="6,1"/>
+                <Label Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What skills are needed to get these Jobs?"/>
+                <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource textColor}" Margin="5,0"/>
+                <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource backgroundColor}" Margin="6,1"/>
+                <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Were are these jobs?"/>
             </Grid>
 
+            <Label Style="{DynamicResource title}" Text="'FAILING TO PLAN IS PLANNING TO FAIL'"/>
+
+            <StackLayout BackgroundColor="{DynamicResource textColor}" Padding="5">
+                <Label Style="{DynamicResource heading}" TextColor="{DynamicResource backgroundColor}" Margin="0,10" Text="What have I got to offer?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Text="Knowing how to 'sell' yourself can make finding a job easier. Start by asking yourself honestly..."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,0" FontAttributes="Bold" Text="What skills do i have?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,0" FontAttributes="Bold" Text="What are my attributes?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,0" FontAttributes="Bold" Text="Can I use these any of these skills in other jobs, are they transferable skills?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,10" FontAttributes="Bold" Text="Do I have any other skills connected with my hobbies or interests which I could develop?"/>
+            </StackLayout>
+
+            <Label Style="{DynamicResource body}" Margin="5,0" Text="Many people make the mistake and consider themselves unskilled because they don't have much work experience or because they don't know how to do anything else."/>
+            <Label Style="{DynamicResource body}" Margin="5,0" Text="The following may help you think about skills you already have including leisure and socialactivities and other things you have achieved."/>
+            <Label Style="{DynamicResource body}" Margin="5,0" Text="Think about your activities and check whether you have skills or experience which could be useful in a new job."/>
+            <Label Style="{DynamicResource body}" Margin="5,0" Text="For example, being a member of a sports team could involve the following:"/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="20,0" Text="Getting on well with other people"/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="20,0" Text="Following or giving instructions"/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="20,0" Text="Being committed to something (reliability)"/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="20,0" Text="Following a routine"/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="20,0" Text="Communication"/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="20,0" Text="Leadership skills"/>
+            
+            
+            
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"/>
