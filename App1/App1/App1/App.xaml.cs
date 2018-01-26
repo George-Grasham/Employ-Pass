@@ -15,8 +15,8 @@ namespace App1
 
             MainPage = new NavigationPage(new App1.MainPage())
             {
-                BarBackgroundColor = (Color)Application.Current.Resources["hilightColor"],
-                BarTextColor = (Color)Application.Current.Resources["textColor"]
+                BarBackgroundColor = (Color)Application.Current.Resources["blue"],
+                BarTextColor = (Color)Application.Current.Resources["yellow"]
             };
         }
 

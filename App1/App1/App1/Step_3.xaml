@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:App1"
-             x:Class="App1.Template">
-    
+             x:Class="App1.Step_3">
     <ScrollView>
         <StackLayout BackgroundColor="{DynamicResource darkBlue}">
             <Grid>
@@ -12,11 +10,11 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Contents"/>
+                <Label Style="{DynamicResource title}" Grid.Column="0" Text="WORD OF MOUTH"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
 
-
+            <Label Style="{DynamicResource body}" />
 
             <Grid>
                 <Grid.RowDefinitions>

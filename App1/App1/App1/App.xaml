@@ -5,11 +5,13 @@
 	<Application.Resources>
         <ResourceDictionary>
             
+            <!--colors-->
+            <Color x:Key="lightBlue">#008FB8</Color>
+            <Color x:Key="blue">#004c7d</Color>
+            <Color x:Key="darkBlue">#002E5F</Color>
+            <Color x:Key="yellow">#FFCC00</Color>
             
-            <!--colors-->            
-            <Color x:Key="backgroundColor">#002E5F</Color>
-            <Color x:Key="textColor">#FFCC00</Color>
-            <Color x:Key="hilightColor">#004C7D</Color>
+            
 
             <!--Images Styles-->
 
@@ -19,28 +21,25 @@
                 <Setter Property="HeightRequest" Value="100" />
                 <Setter Property="Margin" Value="5" />
             </Style>
-            
+
             <Style x:Key="hhslogo"
                    TargetType="Image">
-                <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
                 <Setter Property="Source"          Value="hhslogo.png" />
                 <Setter Property="HeightRequest"   Value="100" />
                 <Setter Property="Margin"          Value="5" />
             </Style>
-            
+
             <Style x:Key="tcatlogo"
                    TargetType="Image">
-                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
                 <Setter Property="Source"          Value="tcatlogo.png" />
                 <Setter Property="HeightRequest"   Value="100" />
                 <Setter Property="Margin"          Value="5" />
             </Style>
             
             <!--Styles-->
-            
+
             <Style x:Key="title"
                    TargetType="Label">
-                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
                 <Setter Property="FontSize" Value="30"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="VerticalTextAlignment"   Value="Center"/>
@@ -49,20 +48,14 @@
 
             <Style x:Key="heading"
                    TargetType="Label">
-                <Setter Property="TextColor" Value="White" />
-                <Setter Property="FontSize" Value="20"/>
-            </Style>
-
-            <Style x:Key="body"
-                   TargetType="Label">
-                <Setter Property="TextColor" Value="White" />
                 <Setter Property="FontSize" Value="17"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
-
+            
             <Style x:Key="buttonStyle"
                    TargetType="Button">
-                <Setter Property="TextColor"       Value="{DynamicResource textColor}" />
-                <Setter Property="BackgroundColor" Value="{DynamicResource hilightColor}" />
+                <Setter Property="TextColor"       Value="{DynamicResource yellow}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource blue}" />
             </Style>
 
         </ResourceDictionary>
