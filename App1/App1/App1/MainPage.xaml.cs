@@ -33,7 +33,7 @@ namespace App1
 
         async private void Step_3_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Template());
+            await Navigation.PushAsync(new Step_3());
         }
 
         async private void Step_4_Clicked(object sender, EventArgs e)
