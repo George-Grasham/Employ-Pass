@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Step_1"
              Title="Step 1">
 
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource lightBlue}">
+        <StackLayout BackgroundColor="{DynamicResource blue}">
             <StackLayout.Resources>
                 <ResourceDictionary>
                     <Style TargetType="Label">
@@ -42,13 +42,13 @@
 
             <Grid>
                 <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource yellow}" Margin="5,0"/>
-                <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource lightBlue}" Margin="6,1"/>
+                <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource blue}" Margin="6,1"/>
                 <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What sort of jobs can i do?"/>
                 <BoxView Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource yellow}" Margin="5,0"/>
-                <BoxView Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource lightBlue}" Margin="6,1"/>
+                <BoxView Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource blue}" Margin="6,1"/>
                 <Label Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What skills are needed to get these Jobs?"/>
                 <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource yellow}" Margin="5,0"/>
-                <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource lightBlue}" Margin="6,1"/>
+                <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource blue}" Margin="6,1"/>
                 <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Were are these jobs?"/>
             </Grid>
 
