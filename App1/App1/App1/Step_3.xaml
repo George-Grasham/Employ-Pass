@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Step_3"
@@ -28,11 +28,17 @@
                 <Label Style="{DynamicResource body}" Text="Many vacancies are never advertised anywhere. One of the best ways of finding out about jobs is through people you know. Friends, relatives and other acquaintances may hear aboutexisting vacancies or jobs not yet advertised." />
                 <Label Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="MAKING 'WORD OF MOUTH' WORK FOR YOU" Margin="0,0,0,20"/>
 
-                <Grid>
+                <Grid RowSpacing="40">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="2*"/>
                     </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
                     <Label Grid.Column="0" Grid.Row="0" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="THINK"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="0">
                         <Label Style="{DynamicResource body}" Text="Who could I get in touch with?"/>
