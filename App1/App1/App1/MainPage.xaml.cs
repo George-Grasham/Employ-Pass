@@ -48,7 +48,7 @@ namespace App1
 
         async private void Preping_a_CV_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Template());
+            await Navigation.PushAsync(new Step_6());
         }
 
         async private void Application_Forms_Clicked(object sender, EventArgs e)
