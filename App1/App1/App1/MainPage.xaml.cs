@@ -28,7 +28,7 @@ namespace App1
 
         async private void Step_2_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Template());
+            await Navigation.PushAsync(new Step_2());
         }
 
         async private void Step_3_Clicked(object sender, EventArgs e)
