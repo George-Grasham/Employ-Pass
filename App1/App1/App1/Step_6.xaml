@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="App1.Step_6" Title="CV">
+    <ScrollView>
+        <StackLayout BackgroundColor="{DynamicResource lightBlue}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Style="{DynamicResource title}" TextColor="White" Grid.Column="0" Text="Preparation of a CV"/>
+                <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
+            </Grid>
+
+            <StackLayout Margin="5,0,0,0">
+            <Label Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="WHAT IS A CV?"/>
+            <Label Style="{DynamicResource body}"    TextColor="White" Text="Curriculum Vitae (CV) is a short factual account about yourself, including your work experience and qualifications. It should ideally be no more than two sides of A4. It should provide all potential employers with the essential information." />
+            <Label Style="{DynamicResource body}"    TextColor="White" Text="Some advertisements for job vacancies may ask you to apply in writing. In this case it is normal to send a copy of your CV with a covering letter. They will tell you if they need you to request an application form. Remember, even a telephone call to request an application will leave an impression, so do it well!" />
+           
+            </StackLayout> 
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
+                <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
+
+                <BoxView Color="White" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+
+    
+</ContentPage>
