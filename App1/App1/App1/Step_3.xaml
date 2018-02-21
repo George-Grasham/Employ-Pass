@@ -25,13 +25,13 @@
             </Grid>
             
             <StackLayout Margin="10,0">
-                <Label Style="{DynamicResource body}" Text="Many vacancies are never advertised anywhere. One of the best ways of finding out about jobs is through people you know. Friends, relatives and other acquaintances may hear aboutexisting vacancies or jobs not yet advertised." />
+                <Label TextColor="White" Style="{DynamicResource body}" Text="Many vacancies are never advertised anywhere. One of the best ways of finding out about jobs is through people you know. Friends, relatives and other acquaintances may hear aboutexisting vacancies or jobs not yet advertised." />
                 <Label Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="MAKING 'WORD OF MOUTH' WORK FOR YOU" Margin="0,0,0,20"/>
 
                 <Grid RowSpacing="40">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -41,37 +41,37 @@
                     </Grid.RowDefinitions>
                     <Label Grid.Column="0" Grid.Row="0" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="THINK"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="0">
-                        <Label Style="{DynamicResource body}" Text="Who could I get in touch with?"/>
-                        <Label Style="{DynamicResource body}" Text="Who might know of opportunities?"/>
-                        <Label Style="{DynamicResource body}" Text="What about people I used to work with?"/>
-                        <Label Style="{DynamicResource body}" Text="Or friends from the past?"/>
-                        <Label Style="{DynamicResource body}" Text="Relatives?"/>
-                        <Label Style="{DynamicResource body}" Text="What are the pros and cons?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="Who could I get in touch with?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="Who might know of opportunities?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="What about people I used to work with?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="Or friends from the past?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="Relatives?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="What are the pros and cons?"/>
                     </StackLayout>
 
                     <Label Grid.Column="0" Grid.Row="1" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="PLAN"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="1">
-                        <Label Style="{DynamicResource body}" Text="What will I say?"/>
-                        <Label Style="{DynamicResource body}" Text="What should I say I'm looking for?"/>
-                        <Label Style="{DynamicResource body}" Text="How can this person help me?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="What will I say?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="What should I say I'm looking for?"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="How can this person help me?"/>
                     </StackLayout>
 
                     <Label Grid.Column="0" Grid.Row="2" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="DO"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="2">
-                        <Label Style="{DynamicResource body}" Text="List anyone you think may be able to help"/>
-                        <Label Style="{DynamicResource body}" Text="Decide how to get in touch—phone, letter, in person, etc."/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="List anyone you think may be able to help"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="Decide how to get in touch—phone, letter, in person, etc."/>
                     </StackLayout>
 
                     <Label Grid.Column="0" Grid.Row="3" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="THEN"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="3">
-                        <Label Style="{DynamicResource body}" Text="Follow up any requests to check any results"/>
-                        <Label Style="{DynamicResource body}" Text="Keep in touch (But try not to be pushy!)"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="Follow up any requests to check any results"/>
+                        <Label TextColor="White" Style="{DynamicResource body}" Text="Keep in touch (But try not to be pushy!)"/>
                     </StackLayout>
 
 
 
                 </Grid>
- 
+
             </StackLayout>
             
             <Grid>
