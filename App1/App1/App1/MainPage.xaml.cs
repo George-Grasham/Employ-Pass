@@ -53,6 +53,16 @@ namespace App1
 
         async private void Application_Forms_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new Step_7());
+        }
+
+        async private void Preparation_for_Interview_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Template());
+        }
+
+        async private void Employability_Skills_Framework_Clicked(object sender, EventArgs e)
+        {
             await Navigation.PushAsync(new Template());
         }
     }

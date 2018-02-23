@@ -13,10 +13,53 @@
             </Grid>
 
             <StackLayout Margin="5,0,0,0">
-            <Label Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="WHAT IS A CV?"/>
-            <Label Style="{DynamicResource body}"    TextColor="White" Text="Curriculum Vitae (CV) is a short factual account about yourself, including your work experience and qualifications. It should ideally be no more than two sides of A4. It should provide all potential employers with the essential information." />
-            <Label Style="{DynamicResource body}"    TextColor="White" Text="Some advertisements for job vacancies may ask you to apply in writing. In this case it is normal to send a copy of your CV with a covering letter. They will tell you if they need you to request an application form. Remember, even a telephone call to request an application will leave an impression, so do it well!" />
-           
+                <Label Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="WHAT IS A CV?"/>
+                <Label Style="{DynamicResource body}"    TextColor="White" Text="Curriculum Vitae (CV) is a short factual account about yourself, including your work experience and qualifications. It should ideally be no more than two sides of A4. It should provide all potential employers with the essential information." />
+                <Label Style="{DynamicResource body}"    TextColor="White" Text="Some advertisements for job vacancies may ask you to apply in writing. In this case it is normal to send a copy of your CV with a covering letter. They will tell you if they need you to request an application form. Remember, even a telephone call to request an application will leave an impression, so do it well!" />
+
+                <Label Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="DURING AN INTERVIEW"/>
+                <Label Style="{DynamicResource body}"    TextColor="White" Text="Having a copy of your CV while you wait to be called in can help you refresh your memory. It is also advised that you leave a copy with the interviewer." />
+
+                <Label Style="{DynamicResource heading}" TextColor="White" Text="WHAT TO INCLUDE"/>
+                <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="There is no set format for a CV, the style is personal choice, but you may find it useful to include the following:" />
+
+                <!-- &#x0a; -->
+                <!-- TODO: Test-->
+                <StackLayout Margin="0,5">
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="Personal details"/>
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource yellow}" Text="-Name &#x0a;-Address &#x0a;-Date of birth &#x0a;-Phone number &#x0a;-Email address (what does it say about you?)"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,5">
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="Personal profile"/>
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource yellow}" Text="-A short statement at the beginning of the CV&#x0a;-Include positive words such as competent, adaptable, conscientious"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,5">
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="Achievements"/>
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource yellow}" Text="-Mention things you did well in your past job/school"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,5">
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="Work history"/>
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource yellow}" Text="-Put the most recent job first, with dates and key roles &#x0a;-If your work experience is limited you may wish to include temporary, part-time or voluntary jobs"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,5">
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="Training/qualifications"/>
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource yellow}" Text="-Include any training and qualifications gained"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,5">
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="Interests"/>
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource yellow}" Text="-Aim to sell yourself, show you are a well rounded individual &#x0a;-Include hobbies, interests and membership of clubs"/>
+
+                </StackLayout>
+
+                <StackLayout Margin="0,5">
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource darkBlue}" Text="References"/>
+                    <Label Style="{DynamicResource body}"    TextColor="{DynamicResource yellow}" Text="-Last employer or someone who has known you for a long time (not a relative)"/>
+                </StackLayout>
             </StackLayout> 
             
             <Grid>

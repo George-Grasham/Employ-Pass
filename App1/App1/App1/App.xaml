@@ -6,7 +6,8 @@
         <ResourceDictionary>
             
             <!--colors-->
-            <Color x:Key="lightBlue">#008FB8</Color>
+            <!-- <Color x:Key="lightBlue">#008FB8</Color> -->
+            <Color x:Key="lightBlue">#009FC8</Color>
             <Color x:Key="blue">#004c7d</Color>
             <Color x:Key="darkBlue">#002E5F</Color>
             <Color x:Key="yellow">#FFCC00</Color>
@@ -55,7 +56,6 @@
             <Style x:Key="body"
                    TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
-                <Setter Property="Margin" Value="0,0,0,10"/>
 
             </Style>
             

@@ -16,6 +16,7 @@
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
 
+            <Label Style="{DynamicResource heading}" TextColor="Red" BackgroundColor="Yellow" Text="Not Yet Implemented"/>
 
             <Grid>
                 <Grid.RowDefinitions>

@@ -24,6 +24,8 @@
             <Button Style="{DynamicResource buttonStyle}" x:Name="Step_5" Text="Step 5: Keeping track of your progress" Clicked="Step_5_Clicked"/>
             <Button Style="{DynamicResource buttonStyle}" x:Name="Preping_a_CV" Text="Preparations of a CV" Clicked="Preping_a_CV_Clicked"/>
             <Button Style="{DynamicResource buttonStyle}" x:Name="Application_Forms" Text="Application forms" Clicked="Application_Forms_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Preparation_for_Interview" Text="Preparation for Interview" Clicked="Preparation_for_Interview_Clicked"/>
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Employability_Skills_Framework" Text="Employability Skills Framework" Clicked="Employability_Skills_Framework_Clicked"/>
             
             <Grid>
                 <Grid.RowDefinitions>
