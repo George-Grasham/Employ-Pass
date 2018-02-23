@@ -57,6 +57,9 @@
     <Compile Include="Step_7.xaml.cs">
       <DependentUpon>Step_7.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Step_8.xaml.cs">
+      <DependentUpon>Step_8.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Template.xaml.cs">
       <DependentUpon>Template.xaml</DependentUpon>
     </Compile>
@@ -132,6 +135,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Step_7.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Step_8.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

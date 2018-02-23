@@ -58,7 +58,7 @@ namespace App1
 
         async private void Preparation_for_Interview_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Template());
+            await Navigation.PushAsync(new Step_8());
         }
 
         async private void Employability_Skills_Framework_Clicked(object sender, EventArgs e)
