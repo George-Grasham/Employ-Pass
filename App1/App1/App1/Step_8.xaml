@@ -5,7 +5,7 @@
              Title="Step 8">
     <ScrollView>
         <StackLayout BackgroundColor="{DynamicResource darkBlue}">
-            <Grid>
+            <Grid>  
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>

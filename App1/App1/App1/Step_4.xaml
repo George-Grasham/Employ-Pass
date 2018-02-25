@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Step_4">
+    <ScrollView>
+        <StackLayout BackgroundColor="{DynamicResource yellow}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Style="{DynamicResource title}" TextColor="White" Grid.Column="0" Text="Applying on the 'off chance'"/>
+                <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
+            </Grid>
+
+            <Label Margin="5,0" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="Many vacancies are not advertised."/>
+            <Label Margin="5,0" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="There is always a chance to find these jobs by applying on the 'off chance'."/>
+            <Label Margin="5,0" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="The chart below may help you to prepare for a visit or a telephone call to an employer."/>
+                   
+            <StackLayout HorizontalOptions="Center">
+                <Grid Margin="25,0" RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="2"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                                        
+                    <BoxView Grid.Row="0" Grid.ColumnSpan="3" Color="{DynamicResource darkBlue}"/>
+                    <BoxView Grid.Row="0" Grid.ColumnSpan="3" Margin="2" Color="{DynamicResource yellow}"/>
+                    <Label   FontAttributes="Bold" Style="{DynamicResource body}" Grid.Row="0" Grid.ColumnSpan="3" Margin="4" TextColor="{DynamicResource darkBlue}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Decide who to contact and why"/>
+
+                    <BoxView Grid.Row="1" Grid.Column="1" Color="{DynamicResource darkBlue}" WidthRequest="2"/>
+
+                    <BoxView Grid.Row="2" Grid.ColumnSpan="3" Color="{DynamicResource darkBlue}"/>
+                    <BoxView Grid.Row="2" Grid.ColumnSpan="3" Margin="2" Color="{DynamicResource yellow}"/>
+                    <Label   FontAttributes="Bold" Style="{DynamicResource body}" Grid.Row="2" Grid.ColumnSpan="3" Margin="4" TextColor="{DynamicResource darkBlue}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Decide what to say - make notes beforehand"/>
+
+                    <BoxView Grid.Row="3" Grid.Column="1" Color="{DynamicResource darkBlue}"/>
+
+                    <BoxView Grid.Row="4" Grid.ColumnSpan="3" Color="{DynamicResource darkBlue}"/>
+                    <BoxView Grid.Row="4" Grid.ColumnSpan="3" Margin="2" Color="{DynamicResource yellow}"/>
+                    <Label   FontAttributes="Bold" Style="{DynamicResource body}" Grid.Row="4" Grid.ColumnSpan="3" Margin="4" TextColor="{DynamicResource darkBlue}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Find out the name of the person you should speak to"/>
+
+                    <!--<BoxView Grid.Row="5" Grid.Column="1" Color="{DynamicResource darkBlue}"/>-->
+
+                    </Grid>
+                <Label Margin="5,0" TextColor="{DynamicResource darkBlue}" Style="{DynamicResource body}" Text="If you are going to use a mobile, be sure you have plenty of charge and credit available"/>
+                <Label Margin="5,0" TextColor="{DynamicResource darkBlue}" Style="{DynamicResource body}" Text="If you are going to visit, get your paper- work together, e.g. copies of your CV, references, examples of work"/>
+                <Label Margin="5,0" TextColor="{DynamicResource darkBlue}" Style="{DynamicResource body}" Text="Have pen and paper ready to make notes"/>
+                <Label Margin="5,0" TextColor="{DynamicResource darkBlue}" Style="{DynamicResource body}" Text="Plan your journey - could you visit several employers?"/>
+                <Label Margin="5,0" TextColor="{DynamicResource darkBlue}" Style="{DynamicResource body}" Text="Pay attention to your appearance - first impressions count Always arrive early!"/>
+            </StackLayout>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
+                <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
+
+                <BoxView Color="{DynamicResource lightBlue}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="White" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
