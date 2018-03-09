@@ -142,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\hhsshield.png" />
+    <BundleResource Include="Resources\applicationform.png" />
     <Content Include="Resources\hhslogo.png" />
     <Content Include="Resources\tcatlogo.png" />
   </ItemGroup>
