@@ -4,7 +4,7 @@
              x:Class="App1.Step_7"
              Title="Step 7">
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource lightBlue}">
+        <StackLayout BackgroundColor="{DynamicResource blue}">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
@@ -15,13 +15,11 @@
                 <Image Grid.Column="1" x:Name="Shield" Style="{DynamicResource hhsshield}"/>
             </Grid>
 
-            <Label Style="{DynamicResource body}" TextColor="White" Text="You never get a second opportunity to make a good first impression - some employers will ask you to complete an application form as well as or instead of a CV. This may be in paper format or as an e-form. Whichever application type the employer asks for is your first impression - will your application be filed 'in the bin' or take you on to the next stage in the recruitment processes?"/>
-            <Label Style="{DynamicResource body}" TextColor="White" Text="Can you spot the errors this candidate has made on their application form? Even better, can you correct them?" />
-            <Grid>
-                <BoxView HeightRequest="800" WidthRequest="350" Color="Red"/>
-                <Label Text="Image Here" TextColor="Blue" BackgroundColor="White"/>
-            </Grid>
-                  
+            <Label Style="{DynamicResource body}" Margin="5,0" TextColor="White" Text="You never get a second opportunity to make a good first impression - some employers will ask you to complete an application form as well as or instead of a CV. This may be in paper format or as an e-form. Whichever application type the employer asks for is your first impression - will your application be filed 'in the bin' or take you on to the next stage in the recruitment processes?"/>
+            <Label Style="{DynamicResource body}" Margin="5,0" TextColor="White" Text="Can you spot the errors this candidate has made on their application form? Even better, can you correct them?" />
+
+            <Image Source="applicationform.png" Margin="5"/>
+
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"/>
