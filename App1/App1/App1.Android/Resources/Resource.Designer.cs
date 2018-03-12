@@ -4160,8 +4160,8 @@ namespace App1.Droid
 			// aapt resource value: 0x7f0b0178
 			public const int Animation_Design_BottomSheetDialog = 2131427704;
 			
-			// aapt resource value: 0x7f0b019b
-			public const int AppCompatDialogStyle = 2131427739;
+			// aapt resource value: 0x7f0b019c
+			public const int AppCompatDialogStyle = 2131427740;
 			
 			// aapt resource value: 0x7f0b00b1
 			public const int Base_AlertDialog_AppCompat = 2131427505;
@@ -5377,6 +5377,9 @@ namespace App1.Droid
 			
 			// aapt resource value: 0x7f0b000a
 			public const int Widget_MediaRouter_MediaRouteButton = 2131427338;
+			
+			// aapt resource value: 0x7f0b019b
+			public const int splashScreen = 2131427739;
 			
 			static Style()
 			{
