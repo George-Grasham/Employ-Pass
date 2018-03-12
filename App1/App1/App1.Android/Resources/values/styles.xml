@@ -25,7 +25,7 @@
   </style>
 
   <style name="splashScreen" parent="android:Theme">
-    <item name="android:windowBackground">@drawable/Splash</item>
+    <item name="android:windowBackground">@drawable/hhsshield</item>
     <item name="android:windowNoTitle">true</item>
   </style>
     
