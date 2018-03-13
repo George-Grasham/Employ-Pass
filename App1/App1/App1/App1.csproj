@@ -98,6 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\applicationform.png" />
+    <Content Include="Resources\EP.png" />
     <Content Include="Resources\hhslogo.png" />
     <Content Include="Resources\hhsshield.jpg" />
     <Content Include="Resources\tcatlogo.png" />
