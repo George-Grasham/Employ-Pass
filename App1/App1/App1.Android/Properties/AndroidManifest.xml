@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="App1.Android"></application>
+  <uses-sdk android:minSdkVersion="15" />
+  <application android:label="Employability Passport">
+  <application android:name="EP"/>
+  </application>
 </manifest>

@@ -14,10 +14,9 @@ using System.Threading.Tasks;
 
 namespace App1.Droid
 {
-    [Activity(Label = "Splash", Theme = "@style/splashScreen", MainLauncher = true, NoHistory = true)]
+    [Activity(Label = "EP", Icon = "@drawable/hhsshield", Theme = "@style/splashScreen", MainLauncher = true, NoHistory = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class SplashScreen : Activity
     {
-        int count = 1;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,7 +27,7 @@ namespace App1.Droid
             base.OnResume();
             Task startupWork = new Task(() =>
             {
-                Task.Delay(3000);
+                Task.Delay(2000);
 
             });
             startupWork.ContinueWith(t =>
