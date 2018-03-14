@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace App1.Droid
 {
-    [Activity(Label = "EP", Icon = "@drawable/hhsshield", Theme = "@style/splashScreen", MainLauncher = true, NoHistory = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "EP", Icon = "@drawable/Dave", Theme = "@style/splashScreen", MainLauncher = true, NoHistory = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class SplashScreen : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
