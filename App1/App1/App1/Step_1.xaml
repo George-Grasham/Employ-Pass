@@ -48,7 +48,7 @@
                 <Label TextColor="{DynamicResource darkBlue}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What skills are needed to get these Jobs?"/>
 
                 <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource yellow}" Margin="6,1"/>
-                <Label TextColor="{DynamicResource darkBlue}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Were are these jobs?"/>
+                <Label TextColor="{DynamicResource darkBlue}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Where are these jobs?"/>
             </Grid>
 
             <Label Style="{DynamicResource title}" TextColor="{DynamicResource yellow}" Text="'FAILING TO PLAN IS PLANNING TO FAIL'"/>
@@ -63,7 +63,7 @@
             </StackLayout>
 
             <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="Many people make the mistake and consider themselves unskilled because they don't have much work experience or because they don't know how to do anything else."/>
-            <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="The following may help you think about skills you already have including leisure and socialactivities and other things you have achieved."/>
+            <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="The following may help you think about skills you already have including leisure and social activities and other things you have achieved."/>
             <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="Think about your activities and check whether you have skills or experience which could be useful in a new job."/>
             <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="For example, being a member of a sports team could involve the following:"/>
             <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource yellow}" Margin="20,0" Text="Getting on well with other people"/>
@@ -92,7 +92,7 @@
                 <BoxView Grid.Row="3" Color="{DynamicResource yellow}" Margin="2"/>
                 <StackLayout Grid.Row="3" Margin="3" BackgroundColor="{DynamicResource Blue}">
                     <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource darkBlue}" Text="Other Activities"/>
-                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="- Being elected as a committee member&#x0a;- Managed or coached a team&#x0a;- Won a compotition&#x0a;- Gained any award, honour or prize"/>
+                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="- Being elected as a committee member&#x0a;- Managed or coached a team&#x0a;- Won a competition&#x0a;- Gained any award, honour or prize"/>
                 </StackLayout>
 
             </Grid>
