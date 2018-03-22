@@ -14,8 +14,6 @@
                 <Label Style="{DynamicResource title}" Grid.Column="0" Text="Template"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
-
-            <Label Style="{DynamicResource heading}" TextColor="Red" BackgroundColor="Yellow" Text="Not Yet Implemented"/>
             <Button Style="{DynamicResource buttonStyle}" x:Name="Button1"  Text="Google Doc" Clicked="Button_Clicked" />
 
             <Grid>
