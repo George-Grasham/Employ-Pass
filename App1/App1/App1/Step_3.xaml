@@ -25,7 +25,7 @@
             </Grid>
             
             <StackLayout Margin="10,0">
-                <Label TextColor="White" Style="{DynamicResource body}" Text="Many vacancies are never advertised anywhere. One of the best ways of finding out about jobs is through people you know. Friends, relatives and other acquaintances may hear aboutexisting vacancies or jobs not yet advertised." />
+                <Label TextColor="White" Style="{DynamicResource body}" Text="Many vacancies are never advertised anywhere. One of the best ways of finding out about jobs is through people you know. Friends, relatives and other acquaintances may hear about existing vacancies or jobs not yet advertised." />
                 <Label HorizontalTextAlignment="Center" Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="MAKING 'WORD OF MOUTH' WORK FOR YOU" Margin="0,0,0,20"/>
 
                 <Grid RowSpacing="40">

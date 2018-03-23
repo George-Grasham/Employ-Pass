@@ -26,7 +26,8 @@
             <Button Style="{DynamicResource buttonStyle}" x:Name="Application_Forms" Text="Application forms" Clicked="Application_Forms_Clicked"/>
             <Button Style="{DynamicResource buttonStyle}" x:Name="Preparation_for_Interview" Text="Preparation for Interview" Clicked="Preparation_for_Interview_Clicked"/>
             <Button Style="{DynamicResource buttonStyle}" x:Name="Employability_Skills_Framework" Text="Employability Skills Framework" Clicked="Employability_Skills_Framework_Clicked"/>
-            
+            <Button Style="{DynamicResource buttonStyle}" x:Name="Useful_Links" Text="Useful Links" Clicked="Useful_Links_Clicked"/>
+
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"/>
@@ -36,9 +37,6 @@
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
-                <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
-
                 <BoxView Color="{DynamicResource yellow}" Grid.Row="1" Grid.ColumnSpan="2"/>
                 <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>

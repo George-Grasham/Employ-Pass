@@ -65,5 +65,9 @@ namespace App1
         {
             await Navigation.PushAsync(new Template());
         }
+        async private void Useful_Links_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Links());
+        }
     }
 }
