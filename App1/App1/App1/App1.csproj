@@ -41,12 +41,13 @@
     <Compile Include="Introduction.xaml.cs">
       <DependentUpon>Introduction.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
+    <Compile Include="Contents.xaml.cs">
+      <DependentUpon>Contents.xaml</DependentUpon>
     </Compile>
     <Compile Include="Links.xaml.cs">
       <DependentUpon>Links.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainCarouselPage.cs" />
     <Compile Include="Step_1.xaml.cs">
       <DependentUpon>Step_1.xaml</DependentUpon>
     </Compile>
@@ -77,7 +78,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainPage.xaml">
+    <EmbeddedResource Include="Contents.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

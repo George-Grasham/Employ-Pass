@@ -13,11 +13,8 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new App1.MainPage())
-            {
-                BarBackgroundColor = (Color)Application.Current.Resources["blue"],
-                BarTextColor = (Color)Application.Current.Resources["yellow"]
-            };
+            MainPage = new MainCarouselPage();
+            
         }
 
         protected override void OnStart()
