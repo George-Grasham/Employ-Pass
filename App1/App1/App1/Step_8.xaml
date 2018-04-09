@@ -4,18 +4,18 @@
              x:Class="App1.Step_8"
              Title="Step 8">
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource darkBlue}">
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
             <Grid>  
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" TextColor="White" Grid.Column="0" Text="Preparation for Interview"/>
+                <Label Style="{DynamicResource title}" TextColor="{DynamicResource textColor}" Grid.Column="0" Text="Preparation for Interview"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
 
-            <Label Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Margin="0,5,0,10" HorizontalTextAlignment="Center">
+            <Label Style="{DynamicResource heading}" TextColor="{DynamicResource hilightColor}" Margin="0,5,0,10" HorizontalTextAlignment="Center">
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="TOP TIP "/>
@@ -24,26 +24,26 @@
                 </Label.FormattedText>
             </Label>
             <StackLayout Margin="5,0">
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource yellow}" FontAttributes="Bold" Text="PLANNING"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Do a practice route to the interview location, the week before - how long does it take, what bus route is it on?"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Prepare your clothes the night before—including ironing the outfit, polishing your shoes and sorting chipped nail varnish!"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Consider – what does your interview outfit say about you (even if you know that everyone who works for the company wears jeans for work consider - is that appropriate for an interview!)"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Your interview outfit could be your school uniform - it is smart and you wear it with pride!"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Research the company you are applying to."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource hilightColor}" FontAttributes="Bold" Text="PLANNING"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Do a practice route to the interview location, the week before - how long does it take, what bus route is it on?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Prepare your clothes the night before—including ironing the outfit, polishing your shoes and sorting chipped nail varnish!"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Consider – what does your interview outfit say about you (even if you know that everyone who works for the company wears jeans for work consider - is that appropriate for an interview!)"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Your interview outfit could be your school uniform - it is smart and you wear it with pride!"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Research the company you are applying to."/>
 
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource yellow}" FontAttributes="Bold" Text="ON THE DAY"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Is it raining, sunny - dress for the weather!"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Always arrive early - you might need the loo!"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Remember your manners – a receptionist will be making a judgement about you and may well be asked their opinion of the candidates."/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Ask for the interviewer by name."/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Take a copy of your CV/Application Form and scan through it while you're waiting"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Greet the interviewer with a good, firm handshake and an appropriate salutation."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource hilightColor}" FontAttributes="Bold" Text="ON THE DAY"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Is it raining, sunny - dress for the weather!"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Always arrive early - you might need the loo!"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Remember your manners – a receptionist will be making a judgement about you and may well be asked their opinion of the candidates."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Ask for the interviewer by name."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Take a copy of your CV/Application Form and scan through it while you're waiting"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Greet the interviewer with a good, firm handshake and an appropriate salutation."/>
 
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource yellow}" FontAttributes="Bold" Text="DURING THE INTERVIEW"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Be clear about your answers and try not to waffle."/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Consider your body language - sit forward to appear interested and give good eye contact with the panel."/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Ask if you're not sure or if you didn't hear -a good interviewer will be happy to rephrase a question!"/>
-                <Label Style="{DynamicResource body}" TextColor="White" Text="Ask a constructive question at the end of the interview - NOT 'how much sick pay do I get' but 'what are the opportunities for promotion'?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource hilightColor}" FontAttributes="Bold" Text="DURING THE INTERVIEW"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Be clear about your answers and try not to waffle."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Consider your body language - sit forward to appear interested and give good eye contact with the panel."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Ask if you're not sure or if you didn't hear -a good interviewer will be happy to rephrase a question!"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Text="Ask a constructive question at the end of the interview - NOT 'how much sick pay do I get' but 'what are the opportunities for promotion'?"/>
 
             </StackLayout>
             
@@ -59,8 +59,8 @@
                 <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
                 <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
-                <BoxView Color="{DynamicResource yellow}" Grid.Row="1" Grid.ColumnSpan="2"/>
-                <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+                <BoxView Color="{DynamicResource hilightColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
     </ScrollView>

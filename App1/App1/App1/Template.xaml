@@ -5,7 +5,7 @@
              x:Class="App1.Template">
     
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource darkBlue}">
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
@@ -30,8 +30,8 @@
                 <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
                 <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
-                <BoxView Color="{DynamicResource yellow}" Grid.Row="1" Grid.ColumnSpan="2"/>
-                <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+                <BoxView Color="{DynamicResource hilightColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
     </ScrollView>

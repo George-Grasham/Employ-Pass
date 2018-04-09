@@ -6,12 +6,13 @@
         <ResourceDictionary>
             
             <!--colors-->
-            <!-- <Color x:Key="lightBlue">#008FB8</Color> -->
-            <Color x:Key="lightBlue">#009FC8</Color>
-            <Color x:Key="blue">#004c7d</Color>
-            <Color x:Key="darkBlue">#002E5F</Color>
-            <Color x:Key="yellow">#FFCC00</Color>
-            
+            <!-- <Color x:Key="accent2">#008FB8</Color> -->
+            <Color x:Key="accent2">#009FC8</Color>
+            <Color x:Key="accent1">#004c7d</Color>
+            <Color x:Key="backgroundColor">#002E5F</Color>
+            <Color x:Key="hilightColor">#FFCC00</Color>
+            <Color x:Key="textColor">#FFFFFF</Color>
+
             
 
             <!--Images Styles-->    
@@ -61,8 +62,8 @@
             
             <Style x:Key="buttonStyle"
                    TargetType="Button">
-                <Setter Property="TextColor"       Value="{DynamicResource yellow}" />
-                <Setter Property="BackgroundColor" Value="{DynamicResource blue}" />
+                <Setter Property="TextColor"       Value="{DynamicResource hilightColor}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource accent1}" />
             </Style>
 
         </ResourceDictionary>

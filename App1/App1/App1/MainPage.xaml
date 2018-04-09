@@ -5,14 +5,14 @@
              x:Class="App1.MainPage">
 
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource darkBlue}">
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" TextColor="{DynamicResource yellow}" Grid.Column="0" Text="Contents"/>
+                <Label Style="{DynamicResource title}" TextColor="{DynamicResource hilightColor}" Grid.Column="0" Text="Contents"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>                
             </Grid>
             
@@ -37,8 +37,8 @@
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <BoxView Color="{DynamicResource yellow}" Grid.Row="1" Grid.ColumnSpan="2"/>
-                <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+                <BoxView Color="{DynamicResource hilightColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
     </ScrollView>

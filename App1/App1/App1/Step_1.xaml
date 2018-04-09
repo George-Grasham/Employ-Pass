@@ -5,11 +5,11 @@
              Title="Step 1">
 
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource blue}">
+        <StackLayout BackgroundColor="{DynamicResource accent1}">
             <StackLayout.Resources>
                 <ResourceDictionary>
                     <Style TargetType="Label">
-                        <Setter Property="TextColor" Value="White"/>
+                        <Setter Property="TextColor" Value="{DynamicResource textColor}"/>
                     </Style>
                 </ResourceDictionary>
             </StackLayout.Resources>
@@ -19,10 +19,10 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" TextColor="{DynamicResource yellow}" Grid.Column="0">
+                <Label Style="{DynamicResource title}" TextColor="{DynamicResource hilightColor}" Grid.Column="0">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Step 1:&#x0a;" ForegroundColor="White" FontSize="25"/>
+                            <Span Text="Step 1:&#x0a;" ForegroundColor="{DynamicResource textColor}" FontSize="25"/>
                             <Span Text="Making a start"/>
                         </FormattedString>
                     </Label.FormattedText>
@@ -30,7 +30,7 @@
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
 
-            <Label Style="{DynamicResource body}" TextColor="White" Margin="5,0">
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="5,0">
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="You can't just "/>
@@ -38,61 +38,61 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Label Style="{DynamicResource body}" TextColor="White" Margin="5,0" Text="Having a plan will help you get the most from your efforts. First ask yourself some basic questions:"/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource textColor}" Margin="5,0" Text="Having a plan will help you get the most from your efforts. First ask yourself some basic questions:"/>
 
             <Grid>
-                <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource yellow}" Margin="6,1"/>
-                <Label TextColor="{DynamicResource darkBlue}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What sort of jobs can i do?"/>
+                <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource hilightColor}" Margin="6,1"/>
+                <Label TextColor="{DynamicResource backgroundColor}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What sort of jobs can i do?"/>
 
-                <BoxView Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource yellow}" Margin="6,1"/>
-                <Label TextColor="{DynamicResource darkBlue}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What skills are needed to get these Jobs?"/>
+                <BoxView Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource hilightColor}" Margin="6,1"/>
+                <Label TextColor="{DynamicResource backgroundColor}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="What skills are needed to get these Jobs?"/>
 
-                <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource yellow}" Margin="6,1"/>
-                <Label TextColor="{DynamicResource darkBlue}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Where are these jobs?"/>
+                <BoxView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{DynamicResource hilightColor}" Margin="6,1"/>
+                <Label TextColor="{DynamicResource backgroundColor}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{DynamicResource body}" Margin="10,5"  Text="Where are these jobs?"/>
             </Grid>
 
-            <Label Style="{DynamicResource title}" TextColor="{DynamicResource yellow}" Text="'FAILING TO PLAN IS PLANNING TO FAIL'"/>
+            <Label Style="{DynamicResource title}" TextColor="{DynamicResource hilightColor}" Text="'FAILING TO PLAN IS PLANNING TO FAIL'"/>
 
-            <StackLayout BackgroundColor="{DynamicResource yellow}" Padding="5">
-                <Label Style="{DynamicResource heading}" TextColor="{DynamicResource darkBlue}" Margin="0,10" Text="What have I got to offer?"/>
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="Knowing how to 'sell' yourself can make finding a job easier. Start by asking yourself honestly..."/>
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Margin="15,0,0,0" FontAttributes="Bold" Text="What skills do i have?"/>
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Margin="15,0,0,0" FontAttributes="Bold" Text="What are my attributes?"/>
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Margin="15,0,0,0" FontAttributes="Bold" Text="Can I use these any of these skills in other jobs, are they transferable skills?"/>
-                <Label Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Margin="15,0,0,10" FontAttributes="Bold" Text="Do I have any other skills connected with my hobbies or interests which I could develop?"/>
+            <StackLayout BackgroundColor="{DynamicResource hilightColor}" Padding="5">
+                <Label Style="{DynamicResource heading}" TextColor="{DynamicResource backgroundColor}" Margin="0,10" Text="What have I got to offer?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Text="Knowing how to 'sell' yourself can make finding a job easier. Start by asking yourself honestly..."/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,0" FontAttributes="Bold" Text="What skills do i have?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,0" FontAttributes="Bold" Text="What are my attributes?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,0" FontAttributes="Bold" Text="Can I use these any of these skills in other jobs, are they transferable skills?"/>
+                <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="15,0,0,10" FontAttributes="Bold" Text="Do I have any other skills connected with my hobbies or interests which I could develop?"/>
             </StackLayout>
 
-            <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="Many people make the mistake and consider themselves unskilled because they don't have much work experience or because they don't know how to do anything else."/>
-            <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="The following may help you think about skills you already have including leisure and social activities and other things you have achieved."/>
-            <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="Think about your activities and check whether you have skills or experience which could be useful in a new job."/>
-            <Label TextColor="White" Style="{DynamicResource body}" Margin="5,0" Text="For example, being a member of a sports team could involve the following:"/>
-            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource yellow}" Margin="20,0" Text="Getting on well with other people"/>
-            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource yellow}" Margin="20,0" Text="Following or giving instructions"/>
-            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource yellow}" Margin="20,0" Text="Being committed to something (reliability)"/>
-            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource yellow}" Margin="20,0" Text="Following a routine"/>
-            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource yellow}" Margin="20,0" Text="Communication"/>
-            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource yellow}" Margin="20,0" Text="Leadership skills"/>
+            <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Margin="5,0" Text="Many people make the mistake and consider themselves unskilled because they don't have much work experience or because they don't know how to do anything else."/>
+            <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Margin="5,0" Text="The following may help you think about skills you already have including leisure and social activities and other things you have achieved."/>
+            <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Margin="5,0" Text="Think about your activities and check whether you have skills or experience which could be useful in a new job."/>
+            <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Margin="5,0" Text="For example, being a member of a sports team could involve the following:"/>
+            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource hilightColor}" Margin="20,0" Text="Getting on well with other people"/>
+            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource hilightColor}" Margin="20,0" Text="Following or giving instructions"/>
+            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource hilightColor}" Margin="20,0" Text="Being committed to something (reliability)"/>
+            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource hilightColor}" Margin="20,0" Text="Following a routine"/>
+            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource hilightColor}" Margin="20,0" Text="Communication"/>
+            <Label Style="{DynamicResource body}" FontAttributes="Bold" TextColor="{DynamicResource hilightColor}" Margin="20,0" Text="Leadership skills"/>
 
             <Grid Margin="0,10">
-                <BoxView Grid.Row="0" Color="{DynamicResource yellow}" Margin="2"/>
-                <StackLayout Grid.Row="0" Margin="3" BackgroundColor="{DynamicResource Blue}">
-                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource darkBlue}" Text="Social Activities"/>
-                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="- On a committee&#x0a;- In a team&#x0a;- A club member"/>
+                <BoxView Grid.Row="0" Color="{DynamicResource hilightColor}" Margin="2"/>
+                <StackLayout Grid.Row="0" Margin="3">
+                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource backgroundColor}" Text="Social Activities"/>
+                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Text="- On a committee&#x0a;- In a team&#x0a;- A club member"/>
                 </StackLayout>
-                <BoxView Grid.Row="1" Color="{DynamicResource yellow}" Margin="2"/>
-                <StackLayout Grid.Row="1" Margin="3" BackgroundColor="{DynamicResource Blue}">
-                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource darkBlue}" Text="Personal Skills"/>
-                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="- Check for accuracy&#x0a;- Organise people and work&#x0a;- Raise funds"/>
+                <BoxView Grid.Row="1" Color="{DynamicResource hilightColor}" Margin="2"/>
+                <StackLayout Grid.Row="1" Margin="3">
+                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource backgroundColor}" Text="Personal Skills"/>
+                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Text="- Check for accuracy&#x0a;- Organise people and work&#x0a;- Raise funds"/>
                 </StackLayout>
-                <BoxView Grid.Row="2" Color="{DynamicResource yellow}" Margin="2"/>
-                <StackLayout Grid.Row="2" Margin="3" BackgroundColor="{DynamicResource Blue}">
-                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource darkBlue}" Text="Leisure"/>
-                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="- A member of a team&#x0a;- Doing Voluntary work&#x0a;- Using a home computer"/>
+                <BoxView Grid.Row="2" Color="{DynamicResource hilightColor}" Margin="2"/>
+                <StackLayout Grid.Row="2" Margin="3">
+                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource backgroundColor}" Text="Leisure"/>
+                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Text="- A member of a team&#x0a;- Doing Voluntary work&#x0a;- Using a home computer"/>
                 </StackLayout>
-                <BoxView Grid.Row="3" Color="{DynamicResource yellow}" Margin="2"/>
-                <StackLayout Grid.Row="3" Margin="3" BackgroundColor="{DynamicResource Blue}">
-                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource darkBlue}" Text="Other Activities"/>
-                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Text="- Being elected as a committee member&#x0a;- Managed or coached a team&#x0a;- Won a competition&#x0a;- Gained any award, honour or prize"/>
+                <BoxView Grid.Row="3" Color="{DynamicResource hilightColor}" Margin="2"/>
+                <StackLayout Grid.Row="3" Margin="3">
+                    <Label Margin="2" Style="{DynamicResource heading}" TextColor="{DynamicResource backgroundColor}" Text="Other Activities"/>
+                    <Label Margin="2" Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Text="- Being elected as a committee member&#x0a;- Managed or coached a team&#x0a;- Won a competition&#x0a;- Gained any award, honour or prize"/>
                 </StackLayout>
 
             </Grid>
@@ -110,8 +110,8 @@
                 <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
                 <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
-                <BoxView Color="White" Grid.Row="1" Grid.ColumnSpan="2"/>
-                <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+                <BoxView Color="{DynamicResource textColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
     </ScrollView>

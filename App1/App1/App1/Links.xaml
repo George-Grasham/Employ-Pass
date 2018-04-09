@@ -3,14 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Links">
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource darkBlue}">
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" TextColor="{DynamicResource yellow}" Grid.Column="0" Text="Useful links to get you on your way"/>
+                <Label Style="{DynamicResource title}" TextColor="{DynamicResource hilightColor}" Grid.Column="0" Text="Useful links to get you on your way"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
 

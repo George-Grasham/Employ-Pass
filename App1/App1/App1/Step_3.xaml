@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Step_3"
              Title="Step 3">
-    <ScrollView BackgroundColor="{DynamicResource darkBlue}">
+    <ScrollView BackgroundColor="{DynamicResource backgroundColor}">
         <StackLayout>
             <StackLayout.Resources>
                 <ResourceDictionary>
                     <Style TargetType="Label">
-                        <Setter Property="TextColor" Value="White"/>
+                        <Setter Property="TextColor" Value="{DynamicResource textColor}"/>
                         
                     </Style>
                 </ResourceDictionary>
@@ -20,13 +20,13 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" TextColor="{DynamicResource yellow}" Grid.Column="0" Text="WORD OF MOUTH"/>
+                <Label Style="{DynamicResource title}" TextColor="{DynamicResource hilightColor}" Grid.Column="0" Text="WORD OF MOUTH"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
             
             <StackLayout Margin="10,0">
-                <Label TextColor="White" Style="{DynamicResource body}" Text="Many vacancies are never advertised anywhere. One of the best ways of finding out about jobs is through people you know. Friends, relatives and other acquaintances may hear about existing vacancies or jobs not yet advertised." />
-                <Label HorizontalTextAlignment="Center" Style="{DynamicResource heading}" TextColor="{DynamicResource yellow}" Text="MAKING 'WORD OF MOUTH' WORK FOR YOU" Margin="0,0,0,20"/>
+                <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Many vacancies are never advertised anywhere. One of the best ways of finding out about jobs is through people you know. Friends, relatives and other acquaintances may hear about existing vacancies or jobs not yet advertised." />
+                <Label HorizontalTextAlignment="Center" Style="{DynamicResource heading}" TextColor="{DynamicResource hilightColor}" Text="MAKING 'WORD OF MOUTH' WORK FOR YOU" Margin="0,0,0,20"/>
 
                 <Grid RowSpacing="40">
                     <Grid.ColumnDefinitions>
@@ -42,39 +42,39 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <Label Grid.Column="0" Grid.Row="0" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="THINK"/>
+                    <Label Grid.Column="0" Grid.Row="0" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource accent2}" Text="THINK"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="0">
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="Who could I get in touch with?"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="Who might know of opportunities?"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="What about people I used to work with?"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="Or friends from the past?"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="Relatives?"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="What are the pros and cons?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Who could I get in touch with?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Who might know of opportunities?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="What about people I used to work with?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Or friends from the past?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Relatives?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="What are the pros and cons?"/>
                     </StackLayout>
 
-                    <BoxView Color="{DynamicResource yellow}" HeightRequest="5" Grid.Row="1" Grid.ColumnSpan="2"/>
+                    <BoxView Color="{DynamicResource hilightColor}" HeightRequest="5" Grid.Row="1" Grid.ColumnSpan="2"/>
                     
-                    <Label Grid.Column="0" Grid.Row="2" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="PLAN"/>
+                    <Label Grid.Column="0" Grid.Row="2" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource accent2}" Text="PLAN"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="2">
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="What will I say?"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="What should I say I'm looking for?"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="How can this person help me?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="What will I say?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="What should I say I'm looking for?"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="How can this person help me?"/>
                     </StackLayout>
 
-                    <BoxView Color="{DynamicResource yellow}" HeightRequest="5" Grid.Row="3" Grid.ColumnSpan="2"/>
+                    <BoxView Color="{DynamicResource hilightColor}" HeightRequest="5" Grid.Row="3" Grid.ColumnSpan="2"/>
                     
-                    <Label Grid.Column="0" Grid.Row="4" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="DO"/>
+                    <Label Grid.Column="0" Grid.Row="4" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource accent2}" Text="DO"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="4">
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="List anyone you think may be able to help"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="Decide how to get in touch—phone, letter, in person, etc."/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="List anyone you think may be able to help"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Decide how to get in touch—phone, letter, in person, etc."/>
                     </StackLayout>
 
-                    <BoxView Color="{DynamicResource yellow}" HeightRequest="5" Grid.Row="5" Grid.ColumnSpan="2"/>
+                    <BoxView Color="{DynamicResource hilightColor}" HeightRequest="5" Grid.Row="5" Grid.ColumnSpan="2"/>
 
-                    <Label Grid.Column="0" Grid.Row="6" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource lightBlue}" Text="THEN"/>
+                    <Label Grid.Column="0" Grid.Row="6" FontSize="20" VerticalTextAlignment="Center" HorizontalTextAlignment="End" TextColor="{DynamicResource accent2}" Text="THEN"/>
                     <StackLayout VerticalOptions="Center" Grid.Column="1" Grid.Row="6">
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="Follow up any requests to check any results"/>
-                        <Label TextColor="White" Style="{DynamicResource body}" Text="Keep in touch (But try not to be pushy!)"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Follow up any requests to check any results"/>
+                        <Label TextColor="{DynamicResource textColor}" Style="{DynamicResource body}" Text="Keep in touch (But try not to be pushy!)"/>
                     </StackLayout>
 
 
@@ -95,8 +95,8 @@
                 <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
                 <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
-                <BoxView Color="{DynamicResource yellow}" Grid.Row="1" Grid.ColumnSpan="2"/>
-                <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+                <BoxView Color="{DynamicResource hilightColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
     </ScrollView>

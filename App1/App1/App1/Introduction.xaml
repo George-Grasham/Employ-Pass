@@ -4,11 +4,11 @@
              x:Class="App1.Introduction"
              Title="Introduction">
     <ScrollView>
-        <StackLayout BackgroundColor="White">
+        <StackLayout BackgroundColor="{DynamicResource textColor}">
             <StackLayout.Resources>
                 <ResourceDictionary>
                     <Style TargetType="Label">
-                        <Setter Property="TextColor" Value="{DynamicResource darkBlue}"/>
+                        <Setter Property="TextColor" Value="{DynamicResource backgroundColor}"/>
                     </Style>
                 </ResourceDictionary>
             </StackLayout.Resources>
@@ -18,7 +18,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" TextColor="{DynamicResource yellow}"  Grid.Column="0" Text="Contents"/>
+                <Label Style="{DynamicResource title}" TextColor="{DynamicResource hilightColor}"  Grid.Column="0" Text="Contents"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
 
@@ -32,8 +32,8 @@
                 </Label.FormattedText>
             </Label>
             
-            <Label Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Margin="5,0" Text="We live in an age where the pace of change is more rapid than at any time in history. In order to meet these challenges employers require and value people who are adaptable and able to be resilient."/>
-            <Label Style="{DynamicResource body}" TextColor="{DynamicResource darkBlue}" Margin="5,0" Text="This employability booklet should to be used as a reference to highlight your skills and attributes. Whether it be for academic purposes, such as creating a CV, or for personal endeavours into the world of work."/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="5,0" Text="We live in an age where the pace of change is more rapid than at any time in history. In order to meet these challenges employers require and value people who are adaptable and able to be resilient."/>
+            <Label Style="{DynamicResource body}" TextColor="{DynamicResource backgroundColor}" Margin="5,0" Text="This employability booklet should to be used as a reference to highlight your skills and attributes. Whether it be for academic purposes, such as creating a CV, or for personal endeavours into the world of work."/>
 
             
             <Grid>
@@ -49,8 +49,8 @@
                 <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
                 <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
-                <BoxView Color="{DynamicResource yellow}" Grid.Row="1" Grid.ColumnSpan="2"/>
-                <Label TextColor="{DynamicResource darkBlue}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
+                <BoxView Color="{DynamicResource hilightColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label TextColor="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
         </ScrollView>
