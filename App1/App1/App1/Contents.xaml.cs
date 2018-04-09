@@ -26,48 +26,48 @@ namespace App1
             Page.CurrentPage = Page.Pages[2];
         }
 
-        //async private void Step_2_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Step_2());
-        //}
+        private void Step_2_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[3];
+        }
 
-        //async private void Step_3_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Step_3());
-        //}
+        private void Step_3_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[4];
+        }
 
-        //async private void Step_4_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Step_4());
-        //}
+        private void Step_4_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[5];
+        }
 
-        //async private void Step_5_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Step_5());
-        //}
+        private void Step_5_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[6];
+        }
 
-        //async private void Preping_a_CV_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Step_6());
-        //}
+        private void Preping_a_CV_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[7];
+        }
 
-        //async private void Application_Forms_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Step_7());
-        //}
+        private void Application_Forms_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[8];
+        }
 
-        //async private void Preparation_for_Interview_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Step_8());
-        //}
+        private void Preparation_for_Interview_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[9];
+        }
 
-        //async private void Employability_Skills_Framework_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Template());
-        //}
-        //async private void Useful_Links_Clicked(object sender, EventArgs e)
-        //{
-        //    await Navigation.PushAsync(new Links());
-        //}
+        private void Employability_Skills_Framework_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[10];
+        }
+        private void Useful_Links_Clicked(object sender, EventArgs e)
+        {
+            Page.CurrentPage = Page.Pages[11];
+        }
     }
 }
