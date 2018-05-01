@@ -5,7 +5,7 @@
              Title="Step 1">
 
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource accent1}">
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
             <StackLayout.Resources>
                 <ResourceDictionary>
                     <Style TargetType="Label">
@@ -13,6 +13,7 @@
                     </Style>
                 </ResourceDictionary>
             </StackLayout.Resources>
+            
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
@@ -22,7 +23,7 @@
                 <Label Style="{DynamicResource title}" TextColor="{DynamicResource hilightColor}" Grid.Column="0">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Step 1:&#x0a;" ForegroundColor="{DynamicResource textColor}" FontSize="25"/>
+                            <Span Text="Step 1:&#x0a;"  FontSize="25"/>
                             <Span Text="Making a start"/>
                         </FormattedString>
                     </Label.FormattedText>

@@ -8,12 +8,12 @@
             <!--colors-->
             <!-- <Color x:Key="accent2">#008FB8</Color> -->
             <Color x:Key="accent2">#009FC8</Color>
-            <Color x:Key="accent1">#004c7d</Color>
-            <Color x:Key="backgroundColor">#002E5F</Color>
+            <Color x:Key="accent1">#002E5F</Color>
+            <Color x:Key="backgroundColor">#004c7d</Color>
             <Color x:Key="hilightColor">#FFCC00</Color>
             <Color x:Key="textColor">#FFFFFF</Color>
 
-            
+            {DynamicResource accent1}
 
             <!--Images Styles-->    
 
@@ -54,9 +54,9 @@
                 <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
 
-            <Style x:Key="body"
-                   TargetType="Label">
+            <Style x:Key="body" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="{DynamicResource textColor}"/>
 
             </Style>
             
