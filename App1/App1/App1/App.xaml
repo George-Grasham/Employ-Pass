@@ -39,7 +39,8 @@
             </Style>
             
             <!--Styles-->
-
+            
+            
             <Style x:Key="title"
                    TargetType="Label">
                 <Setter Property="FontSize" Value="Large"/>
@@ -52,14 +53,35 @@
                    TargetType="Label">
                 <Setter Property="FontSize" Value="Medium"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{DynamicResource hilightColor}"/>
             </Style>
 
-            <Style x:Key="body" TargetType="Label">
+            <Style x:Key="body" 
+                   TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="{DynamicResource textColor}"/>
-
             </Style>
-            
+
+
+            <Style x:Key="invertedBackground" 
+                   TargetType="BoxView">
+                <Setter Property="Color" Value="{DynamicResource hilightColor}"/>
+            </Style>
+
+            <Style x:Key="invertedBody" 
+                   TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="{DynamicResource hilightColor}"/>
+            </Style>
+
+            <Style x:Key="invertedHeading"
+                   TargetType="Label">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{DynamicResource backgroundColor}"/>
+            </Style>
+
+
             <Style x:Key="buttonStyle"
                    TargetType="Button">
                 <Setter Property="TextColor"       Value="{DynamicResource hilightColor}" />
