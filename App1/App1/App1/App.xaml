@@ -62,6 +62,7 @@
 
             </Style>
 
+            
             <Style x:Key="invHeading"
                    TargetType="Label">
                 <Setter Property="FontSize" Value="Medium"/>
@@ -69,21 +70,12 @@
                 <Setter Property="TextColor"      Value="{DynamicResource backgroundColor}" />
             </Style>
 
-            <Style x:Key="InvBody" TargetType="Label">
+            <Style x:Key="invBody" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="{DynamicResource backgoundColor}"/>
             </Style>
-
-            <Style x:Key="heading"
-                   TargetType="Label">
-                <Setter Property="FontSize" Value="Medium"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="TextColor"      Value="{DynamicResource hilightColor}" />
-            </Style>
-
-
             
-            
+
             <Style x:Key="buttonStyle"
                    TargetType="Button">
                 <Setter Property="TextColor"       Value="{DynamicResource hilightColor}" />
