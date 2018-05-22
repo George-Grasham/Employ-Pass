@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.App">
@@ -39,49 +39,51 @@
             </Style>
             
             <!--Styles-->
-            
-            
+
             <Style x:Key="title"
                    TargetType="Label">
                 <Setter Property="FontSize" Value="Large"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="VerticalTextAlignment"   Value="Center"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="TextColor"       Value="{DynamicResource hilightColor}" />
             </Style>
 
             <Style x:Key="heading"
                    TargetType="Label">
                 <Setter Property="FontSize" Value="Medium"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="TextColor" Value="{DynamicResource hilightColor}"/>
+                <Setter Property="TextColor"      Value="{DynamicResource hilightColor}" />
             </Style>
 
-            <Style x:Key="body" 
-                   TargetType="Label">
+            <Style x:Key="body" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="{DynamicResource textColor}"/>
+
             </Style>
 
-
-            <Style x:Key="invertedBackground" 
-                   TargetType="BoxView">
-                <Setter Property="Color" Value="{DynamicResource hilightColor}"/>
-            </Style>
-
-            <Style x:Key="invertedBody" 
-                   TargetType="Label">
-                <Setter Property="FontSize" Value="Small"/>
-                <Setter Property="TextColor" Value="{DynamicResource hilightColor}"/>
-            </Style>
-
-            <Style x:Key="invertedHeading"
+            <Style x:Key="invHeading"
                    TargetType="Label">
                 <Setter Property="FontSize" Value="Medium"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="TextColor" Value="{DynamicResource backgroundColor}"/>
+                <Setter Property="TextColor"      Value="{DynamicResource backgroundColor}" />
+            </Style>
+
+            <Style x:Key="InvBody" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="{DynamicResource backgoundColor}"/>
+            </Style>
+
+            <Style x:Key="heading"
+                   TargetType="Label">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor"      Value="{DynamicResource hilightColor}" />
             </Style>
 
 
+            
+            
             <Style x:Key="buttonStyle"
                    TargetType="Button">
                 <Setter Property="TextColor"       Value="{DynamicResource hilightColor}" />
