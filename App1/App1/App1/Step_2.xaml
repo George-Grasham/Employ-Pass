@@ -4,35 +4,35 @@
              x:Class="App1.Step_2"
              Title="Step 2">
     <ScrollView>
-        <StackLayout BackgroundColor="{DynamicResource textColor}">
+        <StackLayout BackgroundColor="{DynamicResource backgroundColor}">
             <Grid> 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Style="{DynamicResource title}" TextColor="{DynamicResource backgroundColor}" Grid.Column="0" Text="Looking For Jobs"/>
+                <Label Style="{DynamicResource title}" Grid.Column="0" Text="Looking For Jobs"/>
                 <Image Grid.Column="1" x:Name="Shield"  Style="{DynamicResource hhsshield}"/>
             </Grid>
             <StackLayout Padding="5">
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" FontAttributes="Bold" Text="The following are some of the places you use in your search for work."/>
+                <Label Style="{DynamicResource Body}" FontAttributes="Bold" Text="The following are some of the places you use in your search for work."/>
             
-                <Label Style="{DynamicResource Heading}" TextColor="{DynamicResource hilightColor}" Text="JOBCENTRES"/>
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" Text="Easy to use and you wont be charged to use the services. Check the vacancy cards on display. If you find anything suitable, the Jobcentre staff will be able to tell you how to apply."/>
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" Text="Jobs displayed include full-time, permanent, part-time and temporary vacancies."/>
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" Text="The Jobcentre also have details of training courses and other help which is available for unemployed people in the local area."/>
+                <Label Style="{DynamicResource Heading}" Text="JOBCENTRES"/>
+                <Label Style="{DynamicResource Body}"    Text="Easy to use and you wont be charged to use the services. Check the vacancy cards on display. If you find anything suitable, the Jobcentre staff will be able to tell you how to apply."/>
+                <Label Style="{DynamicResource Body}"    Text="Jobs displayed include full-time, permanent, part-time and temporary vacancies."/>
+                <Label Style="{DynamicResource Body}"    Text="The Jobcentre also have details of training courses and other help which is available for unemployed people in the local area."/>
                 
-                <Label Style="{DynamicResource Heading}" TextColor="{DynamicResource hilightColor}" Text="NEWSPAPERS"/>
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" Text="Both local and national papers advertise jobs but initially you might be better off looking in the local paper until you feel you have wider experience."/>
+                <Label Style="{DynamicResource Heading}" Text="NEWSPAPERS"/>
+                <Label Style="{DynamicResource Body}"    Text="Both local and national papers advertise jobs but initially you might be better off looking in the local paper until you feel you have wider experience."/>
 
-                <Label Style="{DynamicResource Heading}" TextColor="{DynamicResource hilightColor}" Text="EMPLOYMENT AGENCIES"/>
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" Text="Can be really helpful. These are now also based as online agencies but beware they may take a 'finders fee' from you—is it worth it and what is it?"/>
+                <Label Style="{DynamicResource Heading}" Text="EMPLOYMENT AGENCIES"/>
+                <Label Style="{DynamicResource Body}"    Text="Can be really helpful. These are now also based as online agencies but beware they may take a 'finders fee' from you—is it worth it and what is it?"/>
 
-                <Label Style="{DynamicResource Heading}" TextColor="{DynamicResource hilightColor}" Text="LOCAL BUSINESSES"/>
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" Text="Really helpful for part time jobs in the local area remember local people may know you or recognise you what impression are you giving on your way home from school for example!"/>
+                <Label Style="{DynamicResource Heading}" Text="LOCAL BUSINESSES"/>
+                <Label Style="{DynamicResource Body}"    Text="Really helpful for part time jobs in the local area remember local people may know you or recognise you what impression are you giving on your way home from school for example!"/>
 
-                <Label Style="{DynamicResource Heading}" TextColor="{DynamicResource hilightColor}" Text="SOCIAL MEDIA"/>
-                <Label Style="{DynamicResource Body}" TextColor="{DynamicResource backgroundColor}" Text="As you gain more experience many companies are moving towards advertising employment opportunities through social media like Twitter, Linked In and Monster what does your social media account say about you?"/>
+                <Label Style="{DynamicResource Heading}" Text="SOCIAL MEDIA"/>
+                <Label Style="{DynamicResource Body}"    Text="As you gain more experience many companies are moving towards advertising employment opportunities through social media like Twitter, Linked In and Monster what does your social media account say about you?"/>
 
             </StackLayout>
 
@@ -48,7 +48,7 @@
                 <Image x:Name="HessleLogo"     Grid.Column="0"  Style="{DynamicResource hhslogo}"/>
                 <Image x:Name="ConsortiumLogo" Grid.Column="1"  Style="{DynamicResource tcatlogo}"/>
 
-                <BoxView Color="{DynamicResource backgroundColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <BoxView Color="{DynamicResource hilightColor}" Grid.Row="1" Grid.ColumnSpan="2"/>
                 <Label TextColor="{DynamicResource textColor}" Grid.Row="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="EMPLOYABILITY PASSPORT"/>
             </Grid>
         </StackLayout>
